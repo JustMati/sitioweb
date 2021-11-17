@@ -67,8 +67,18 @@
                 <h2 class="box__title">About Me</h2>
                 <h4 class="box__subtitle">Desarrollador Web</h4>
                 <p class="box__text">Hola, soy Richard Matthew Maciel Franco Yataco, actualmente sigo estudiando en SENATI, me estoy especializando en la carrera de Ingeniería de Software con IA, me estoy esforzando por cumplir mis metas y aspiraciones. Soy un apasionado de la tecnología y del desarrollo web.</p>
-                <a href="#" class="box__btn">DOWNLOAD CV</a>
+                
+                <input type="button" class="box__btn" name="change" value="DOWNLOAD CV" onclick="openModal()">
             </div>
+        </div>
+    </div>
+    <!-- Modal CV -->
+    <div class="modal" id="modalAdd">
+        <div class="modal__container">
+            <div class="modal__content">
+                <button typed="button" class="modal__close-btn" onclick="closeModal()">x</button>
+            </div>
+            <h5 class="modal__title">Pronto</h5>
         </div>
     </div>
     <!-- JS -->
