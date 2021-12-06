@@ -5,7 +5,7 @@ var typed = new Typed(".typing", {
     backSpeed: 60,
     loop: true
 });
-/* Modal */
+/* Modal
 const modalAdd = document.querySelector('#modalAdd');
 
 const openModal = () => {
@@ -18,4 +18,4 @@ modalAdd.onclick = (event) => {
 	if(event.target == modalAdd){
 		closeModal();
 	}
-}
+}*/
