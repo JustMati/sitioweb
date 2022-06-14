@@ -1,3 +1,4 @@
+
 /* Letras que se mueven */
 var typed = new Typed(".typing", {
     strings: ["Desarrollador Web."],
@@ -6,7 +7,7 @@ var typed = new Typed(".typing", {
     loop: true
 });
 /* Modal */
-const modalAdd = document.querySelector('open');
+const modalAdd = document.querySelector('#modalAdd');
 
 const openModal = () => {
 	modalAdd.style.display = 'flex';
